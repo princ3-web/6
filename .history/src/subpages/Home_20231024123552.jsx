@@ -219,10 +219,10 @@ const Home = () => {
                   sx={{ width: "100%", height: "450px" }}
                 />
               </Animated>
-              <Typography variant="h5" fontWeight={"Bold"} color={grey[100]} sx={{ my: "1rem" }}>
+              <Typography variant="h5" fontWeight={"Bold"} color={grey[100]} sx={{ py: "0.5rem" }}>
                 {item.title}
               </Typography>
-              <Typography color={grey[100]} sx={{my: "1rem"}}>{item.text}</Typography>
+              <Typography color={grey[100]} sx={}>{item.text}</Typography>
               <Button
                 variant="contained"
                 sx={{
